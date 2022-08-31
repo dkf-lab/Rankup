@@ -1,0 +1,12 @@
+name: Rankup
+version: '${project.version}'
+main: me.dkflab.rankup.Rankup
+api-version: 1.19
+depend: [Vault]
+commands:
+  ranks:
+    description: View ranks
+    usage: /<command>
+  rankup:
+    description: Rankup
+    usage: /<command>
